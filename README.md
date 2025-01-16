@@ -1,1 +1,1 @@
-# corejava
+# core java training
