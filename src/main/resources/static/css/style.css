@@ -1,0 +1,60 @@
+body {
+  background-color: lightblue;
+  background-image: url("../images/image.jpg");
+}
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+
+div.mycontainer div {
+  width:33%;
+  float:left;
+}
+
+div.groove {
+border-style: groove;
+background-color: lightblue;
+}
+
+div.ridge {
+border-style: ridge;
+background-color: yellow;
+}
+
+div.dotted {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-image: url("../images/image3.jpg");
+  padding: 5px;
+  height: auto;
+  width: 200px; /* Fixed width for more consistent appearance */
+  box-sizing: border-box;
+}
+
+/*
+div.dotted {
+border: 2px solid red;
+border-radius: 5px;
+box-sizing: border-box;
+background-image: url("../images/image3.jpg");
+padding: 5px;
+}
+
+*/
+
+input[type=text]:focus {
+  width:40%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  background-color: #3CBC8D;
+}
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+   body {
+      background-color: red;
+    }
+}
